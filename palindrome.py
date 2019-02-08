@@ -1,9 +1,12 @@
-num = input()
-try:
-    val = int(num)
-    if num == str(num)[::-1]:
-        print('yes')
-    else:
-        print('NO')
-except ValueError:
-    print("That's not a valid number, Try Again !")
+#sye
+n=int(input())
+temp=n
+rev=0
+while(n>0):
+    dig=n%10
+    rev=rev*10+dig
+    n=n//10
+if(temp==rev):
+    print("yes")
+else:
+    print("no")
