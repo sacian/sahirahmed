@@ -10,4 +10,4 @@ for num in range(b,c):
       sum=sum+digit**3
       temp=temp//10
       if sum==num:
-           print (num
+           print (num)
